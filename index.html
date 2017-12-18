@@ -36,14 +36,7 @@
 	
 	<section class="container-fluid ">
 		<div class="row first-section">
-			<!--<div>
-        <h3>Disfruta del viaje</h3>
-        <h3>Eres dueño de tu tiempo</h3>
-        <p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
-        <button>Regístrate</button>
-        <p>O bien</p>
-        <button>Conviértete en un conductor</button>
-      </div>-->
+
 			<div class="col-xs-10 col-xs-offset-2 div-child-1 col-md-5 col-md-offset-7">
 				<p class="hidden-md">Comienza a viajar con
 					<img class="hidden-md" src="assets/images/logoBlanco.png">
@@ -54,9 +47,9 @@
 					<h3>Disfruta del viaje</h3>
 					<h3>Eres dueño de tu tiempo</h3>
 					<p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
-					<button class="btn btn-default">Regístrate</button>
+					<button class="btn btn-default" data-toggle="modal" data-target="#register>Regístrate</button>
 					<p>O bien</p>
-					<button class="btn btn-default">Conviértete en un conductor</button>
+					<button class="btn btn-default" data-toggle="modal" data-target="#convert>Conviértete en un conductor</button>
 				</div>
 			</div>
 
@@ -175,6 +168,50 @@
 			<p>© 2017 LabCar technologies Inc.</p>
 		</div>
 	</footer>
+
+	<!--Modales-->
+	<div id="start" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <img src="assets/images/user.png" alt="">
+				</div>
+				<div class="modal-body">
+				  <form>
+					  <div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						<input id="email" type="text" class="form-control" name="email" placeholder="Username">
+					  </div>
+					  <div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+						<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+					  </div>
+					  <div class="input-group">
+						  <input class="btn btn-warning" type="button" value="Loging">
+						  <p>Forgot password? <a href="">Click here!</a></p>
+					  </div>
+					  
+				  </form>
+				</div>
+			  </div>
+		  
+			</div>
+		  </div>
+
+		  <div id="start" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-body">
+						<div class="input-group">
+							<button class="btn btn-danger"></button>
+						</div>
+						<p>O CREA UNA CUENTA NUEVA</p>
+					</div>
+				  </div>
+			  
+				</div>
+			  </div>
+
 	<!-- Se añade la librería de jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="vendors/js/bootstrap.js"></script>

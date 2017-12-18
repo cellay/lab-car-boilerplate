@@ -215,9 +215,6 @@ hr {
         border: 1px solid whitesmoke;
     }
 
-
-
-
     iframe {
         align-self: center;
         height: 75%;
@@ -240,7 +237,5 @@ hr {
 
 
 #start {
-    width: 80vw;
-    height: 80vh;
-    background-color: hotpink;
+    background-color: rgba(0, 0, 0, 0.5);
 }
