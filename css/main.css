@@ -182,7 +182,7 @@ hr {
 }
 
 
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .hidden-md {
       display: none !important;
     }
@@ -239,3 +239,4 @@ hr {
 #start {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
